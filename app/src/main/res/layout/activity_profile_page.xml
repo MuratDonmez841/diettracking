@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".profilePageActivity">
+
+    <TextView
+        android:id="@+id/infoProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/infoProfile"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="21dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/createProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/createProfile"
+        android:drawableStart="@android:drawable/checkbox_on_background"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttondesing2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/infoProfile" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/gender"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:layout_marginTop="7dp"
+        android:inputType="number"
+        android:hint="@string/age"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/weight"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/age" />
+
+    <EditText
+        android:id="@+id/lenght"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/lenght"
+        android:gravity="center"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/weight" />
+
+    <EditText
+        android:id="@+id/illnesses"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:layout_marginTop="7dp"
+        android:inputType="textMultiLine"
+        android:hint="@string/illnesses"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/lenght" />
+
+    <EditText
+        android:id="@+id/useMedicine"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="7dp"
+        android:hint="@string/useMedicine"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/illnesses" />
+
+    <TextView
+        android:id="@+id/updateProfile"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:drawableStart="@android:drawable/stat_notify_sync"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="@string/updateProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toEndOf="@+id/backButton"
+        app:layout_constraintTop_toBottomOf="@id/useMedicine" />
+
+    <TextView
+        android:id="@+id/backButton"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:drawableStart="@android:drawable/radiobutton_off_background"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:text="@string/backButton"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/useMedicine"
+        app:layout_constraintEnd_toStartOf="@id/updateProfile"
+        />
+
+    <Button
+        android:id="@+id/saveProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:text="@string/saveProfile"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttondesing2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gender"
+        android:textColor="#000"
+        android:layout_marginTop="110dp"
+        app:layout_constraintEnd_toStartOf="@+id/gender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/age"
+        android:textColor="#000"
+        app:layout_constraintEnd_toStartOf="@+id/age"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gender" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:layout_marginTop="14dp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toStartOf="@+id/weight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/age" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lenght"
+        android:layout_marginTop="14dp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toStartOf="@+id/lenght"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weight" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ill"
+        android:layout_marginTop="30dp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toStartOf="@+id/illnesses"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lenght" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medicine"
+        android:layout_marginTop="34dp"
+        android:textColor="#000"
+        app:layout_constraintEnd_toStartOf="@+id/useMedicine"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/illnesses" />
+</androidx.constraintlayout.widget.ConstraintLayout>

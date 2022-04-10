@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "950926686578",
+    "firebase_url": "https://projeburada-270a5-default-rtdb.firebaseio.com",
+    "project_id": "projeburada-270a5",
+    "storage_bucket": "projeburada-270a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950926686578:android:13d4ce7835b03d8d8f45eb",
+        "android_client_info": {
+          "package_name": "com.bilgetekelioglu.diyabetTakip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950926686578-vrk3vhpj8ohvl35htmod4hiuvorsrtks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfbiONscgyL_eNN9IwnKLqTFkHTcFj1_c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950926686578-vrk3vhpj8ohvl35htmod4hiuvorsrtks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

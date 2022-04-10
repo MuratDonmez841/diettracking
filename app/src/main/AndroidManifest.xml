@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cakestudios.diettracking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.cakestudios.diettracking.SearchSick"></activity>
+        <activity android:name="com.cakestudios.diettracking.DoctorProfil" />
+        <activity android:name="com.cakestudios.diettracking.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.cakestudios.diettracking.showListActivity" />
+        <activity android:name="com.cakestudios.diettracking.listActivity" />
+        <activity android:name="com.cakestudios.diettracking.newMeasurementActivity2" />
+        <activity android:name="com.cakestudios.diettracking.newMeasurementActivity" />
+        <activity android:name="com.cakestudios.diettracking.profilePageActivity" />
+        <activity android:name="com.cakestudios.diettracking.selectMenuActivity" />
+        <activity android:name="com.cakestudios.diettracking.passwordResetActivity" />
+        <activity android:name="com.cakestudios.diettracking.singUpActivity" />
+        <activity android:name="com.cakestudios.diettracking.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Diyetbet Takip</string>
+    <string name="password">Şifre</string>
+    <string name="entry">Giriş</string>
+    <string name="forgetPassword">Şifremi Unuttum?</string>
+    <string name="signUp">Kaydol</string>
+    <string name="email">Email</string>
+    <string name="loading">Yükleniyor....</string>
+    <string name="entryEmail">Lütfen Email Giriniz!</string>
+    <string name="entryPassword">Lütfen Şifre Giriniz!</string>
+    <string name="errorLogIn">Kullanıcı Bilgilerinizi veya İnternetinizi Kontrol Ediniz!!</string>
+    <string name="userName">Kullanıcı Adı</string>
+    <string name="newRecord">Yeni Kayıt</string>
+    <string name="passwordConfirm">Tekrar Şifre</string>
+    <string name="emailFormat">Emailiniz Kontrol Ediniz</string>
+    <string name="notPassConfirm">Şifreler Eşleşmedi</string>
+    <string name="activativeCode">Kodu Gönder</string>
+    <string name="resetPass">Şifre Yenile</string>
+    <string name="resetPasswordOK">Şifreniz Başarı ile Değiştirildi!</string>
+    <string name="errorPassReset">Hatalı Email! Lütfen Tekrar Deneyiniz</string>
+    <string name="newEntry">Yeni Ölçüm</string>
+    <string name="profile">Profil</string>
+    <string name="list">Ölçüm Listesi</string>
+    <string name="exitSure">Çıkmak istediğinizden eminmisiniz?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="exit">Çıkış!</string>
+    <string name="infoProfile">Profilinizi oluşturun.</string>
+    <string name="createProfile">Oluştur</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="age">Yaş</string>
+    <string name="weight">Kilo</string>
+    <string name="lenght">Boy CM</string>
+    <string name="illnesses">Kronik Hastalıklar</string>
+    <string name="useMedicine">Kullanılan ilaçlar</string>
+    <string name="updateProfile">Düzenle</string>
+    <string name="backButton">Geri</string>
+    <string name="saveProfile">Kaydet</string>
+    <string name="user">"Kullanıcı İsmi = "</string>
+    <string name="updateVars">Bilgilerinizi Güncelleyebilirsiniz</string>
+    <string name="createProfileToast">Profiliniz Oluşturuldu Tekrar giriniz!</string>
+    <string name="infoMeasurement">Bilgileri Giriniz</string>
+    <string name="varMeasurement">Ölçülen Değer</string>
+    <string name="date">Tarih</string>
+    <string name="isHungry">Aç / Tok</string>
+    <string name="next">İleri</string>
+    <string name="caloriInput">Kalori Giriş</string>
+    <string name="morning">"Sabah : "</string>
+    <string name="noon">Öğlen :</string>
+    <string name="night">Akşam :</string>
+    <string name="snack">Ara Öğün :</string>
+    <string name="total">Toplam</string>
+    <string name="totall">Topla</string>
+    <string name="measurementToast">Bilgileriniz Kaydedildi.</string>
+    <string name="measurement">Ölçüm</string>
+    <string name="note">Notlar</string>
+    <string name="totalCalori">Toplam Kalori :</string>
+    <string name="delete">Sil</string>
+    <string name="deleteRecord">Seçili Kayıt Silinecek!</string>
+    <string name="deleteToast">Kayıt Silindi!</string>
+    <string name="line"><![CDATA[---------->]]></string>
+    <string name="infoResetPass">Emailinize Link Gönderildi. Linke Tıklayarak Şifrenizi Değiştirebilirsiniz!</string>
+    <string name="successSingUp">Kayıt Başarılı! Lütfen Giriş Yapınız!</string>
+    <string name="ill">Hastalıklar</string>
+    <string name="medicine">İlaçlar</string>
+    <string name="warning">Tekrar basın!</string>
+    <string-array name="isHungry">
+        <item>AÇ</item>
+        <item>TOK</item>
+    </string-array>
+</resources>

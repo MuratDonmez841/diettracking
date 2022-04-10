@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".newMeasurementActivity2">
+
+
+    <TextView
+        android:id="@+id/caloriInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:text="@string/caloriInput"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="27dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/morning"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:layout_marginTop="130dp"
+        android:inputType="number"
+        android:hint="@string/morning"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/noon"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:hint="@string/noon"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/morning" />
+
+
+
+    <EditText
+        android:id="@+id/night"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/night"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noon" />
+
+    <EditText
+        android:id="@+id/snack"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/design_edittext"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/snack"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/night" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:text="@string/saveProfile"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/buttondesing2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/totalButton" />
+
+    <Button
+        android:id="@+id/backButton1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttondesing2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saveButton" />
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:hint="@string/total"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/totalButton"
+        app:layout_constraintTop_toBottomOf="@+id/snack" />
+
+    <TextView
+        android:id="@+id/totalButton"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:drawableStart="@android:drawable/ic_input_add"
+        android:layout_marginTop="25dp"
+        android:text="@string/totall"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="#A1D1F1"
+        android:layout_marginStart="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/total"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/snack" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
